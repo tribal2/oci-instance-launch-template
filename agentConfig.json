@@ -1,0 +1,26 @@
+{
+    "pluginsConfig": [
+        {
+            "name": "Vulnerability Scanning",
+            "desiredState": "DISABLED"
+        },
+        {
+            "name": "Compute Instance Run Command",
+            "desiredState": "ENABLED"
+        },
+        {
+            "name": "Compute Instance Monitoring",
+            "desiredState": "ENABLED"
+        },
+        {
+            "name": "Block Volume Management",
+            "desiredState": "DISABLED"
+        },
+        {
+            "name": "Bastion",
+            "desiredState": "DISABLED"
+        }
+    ],
+    "isMonitoringDisabled": false,
+    "isManagementDisabled": false
+}
